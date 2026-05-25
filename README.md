@@ -1,38 +1,4 @@
 
-// Source code recreated from a .class file by IntelliJ IDEA
-
-
-import java.awt.BorderLayout;
-import java.awt.Button;
-import java.awt.Color;
-import java.awt.Dialog;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.Label;
-import java.awt.List;
-import java.awt.Panel;
-import java.awt.TextField;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-
-public class TodoApp extends Frame implements ActionListener {
-    private TextField taskField;
-    private Button addButton;
-    private Button deleteButton;
-    private Button doneButton;
-    private Button saveButton;
-    private List taskList;
-    private ArrayList<String> tasks = new ArrayList();
-    private final String FILE_NAME = "tasks.txt";
 
     public TodoApp() {
         this.setTitle("Professional To-Do Manager");
